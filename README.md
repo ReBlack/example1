@@ -2,6 +2,7 @@
 
 Дан  код  нужно оформить его в ООП стиле 
 
+```
 function  sendBaseEmail(string $receiver, string $text) {
   //…
 }
@@ -18,3 +19,4 @@ function sendMessage(string $type, string $receiver, string $text) {
       return sendBaseSms($receiver, $text);
   }
 } 
+```
